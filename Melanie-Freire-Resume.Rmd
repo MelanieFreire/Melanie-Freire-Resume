@@ -1,0 +1,122 @@
+---
+name: Melanie
+surname: Freire
+position: "Pollution Control Inspector II"
+address: "Miami Dade County"
+phone: +1 954 901 4174
+profilepic: Melanie.jpeg
+email: "Melaniefreire152@gmail.com"
+github: MelanieFreire
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "I am a pollution control inspector for Miami Dade County and currently doing a Master's Degree in Public Health & Biostatistics at Florida International University."
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Associate in Arts/Biology", "2018", "Miami Dade College", "Miami, FL",
+  "Bachelor's Degree in Biology", "2020", "Nova Southeasthern University", "Miami, FL",
+  "Master of Public Health & Biostatistics", "Current", "Florida International University", "Miami, FL"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experience
+
+**Chemistry Tutor** 
+*2017-2018 - Miami Dade College Miami FL*
+- Recruited students from chemistry courses to participate in tutoring programs.
+- Collaborated with a team of faculty to develop after-school
+tutorial program for students in need of extra help.
+- Maintained records of student progress and lab completions.
+
+**Research Assistant**
+*2017-2018" - University of Miami Hospital Miami FL*
+- Research about targeting Glioblastoma Stem-like Cancer Cells
+with Dopamine D2 Receptor Antagonists.
+- Experience with cell culture.
+- Performed data analysis and provided recommendations to achieve results.
+
+**Shadowing Program**
+*2019-2019 - Jackson Hospital, Miami FL*
+- Pediatric Anesthesia shadowing program.
+
+**Administrative and Sales Supervisor**
+*2019-2022 - Barbra Hair Salon & Spa, Miami FL* 
+- Costumer Service.
+- Administration experience.
+- Coordinate Schedules.
+- Prepare profits and losses.
+- Supervise employees.
+
+**Pollution Control Inspector I**
+*2020-2023 - Miami Dade County, Miami FL*
+- Conducting field inspection to investigate any source of pollution.
+- Experience investigating or analyzing pollution and/or
+environmental problems and developing solutions.
+- Work with compliance and applicable federal, state, and
+municipal codes, regulations, and standards. • Review and write reports.
+- Write and issue violation notices and tickets.
+
+
+**Election Specialist** 
+*2020-2024 - Miami Dade County, Miami FL*
+- Setting up and supervise all voting equipment at a specific precint.
+
+**Baynanza Coordinator**
+*2023-Present - Miami Dade County, Miami FL*
+- Coordinator of the Annual Baynanza event. Cleaning all the bays of Miami Dade County"
+
+**Environmental Response Inspector (ERI) Program**
+*2023-Presen - Miami Dade County, Miami FL*, 
+- Responding to environmental complaints like sediment plumes to the Bay, oil spills caused by vehicles or accidents and sanitary nuisances.
+- Write and issue violation notices and tickets. 
+- Experience investigating or analyzing pollution and/or environmental problems and developing solutions.
+
+**Pollution Control Inspector II**
+*2023-Present - Miami Dade County, Miami FL* 
+- Conducting field inspection to investigate any source of pollution.
+- Experience investigating or analyzing pollution and/or
+environmental problems and developing solutions.
+- Work with compliance and applicable federal, state, and
+municipal codes, regulations, and standards.
+- Review and write reports.
+- Write and issue violation notices and tickets.
+- Supervise Pollution Control Inspectors I
+- Professional experience in environmental permitting, and code
+enforcement.
+- Enforcement of pollution or environmental control regulations.
+
+
+# Licenses 
+
+- Scuba diving certified.
+- Hazardous waste operations & emergency response certified
+- Code Inspector
+- First Aid (CPR) certified.
+
+# Skills
+
+- Critical thinking
+- Self-motivation
+- Leadership
+- Teaching/tutoring
+- Database administration
+- R Studio Proficient
+- SAS Proficient
+- Gram Staining
+- Computer Skills
+- Bilingual Spanish/English
+- Research and lab procedures
+
+
+
