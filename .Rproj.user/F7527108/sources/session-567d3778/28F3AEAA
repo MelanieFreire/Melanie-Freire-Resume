@@ -3,7 +3,7 @@
     "path": "~/Documents/FIU/R Studio/GitHub/Melanie-Freire-Resume/Melanie-Freire-Resume.Rmd",
     "project_path": "Melanie-Freire-Resume.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "4253211577",
     "contents": "",
     "dirty": false,
     "created": 1721765684669.0,
@@ -11,14 +11,16 @@
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "150,0",
+        "scrollLine": "151"
     },
     "folds": "",
-    "lastKnownWriteTime": 1721765482,
+    "lastKnownWriteTime": 1721766780,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1721765482,
+    "last_content_update": 1721766780780,
     "read_only": false,
     "read_only_alternatives": []
 }
